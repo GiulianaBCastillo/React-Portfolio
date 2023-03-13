@@ -4,10 +4,15 @@ import LogoS from '../../assets/images/logo-palmtree.png'
 import LogoSubtitle from '../../assets/images/subtitle-logo-1.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {
+    faLinkedin,
+    faGithub,
+    faYoutube,
+    faSkype,
+  } from '@fortawesome/free-brands-svg-icons'
+import {
   faHome,
   faUser,
   faEnvelope,
-  faLinkedin
   faSuitcase,
   faBars,
   faClose,
