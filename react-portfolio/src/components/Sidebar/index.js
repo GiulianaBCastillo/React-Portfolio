@@ -55,6 +55,15 @@ const Sidebar = () => (
           <FontAwesomeIcon icon={faLinkedin} color="#4d4d4e" />
         </a>
       </li>
+      <li>
+        <a
+          target="_blank"
+          rel="noreferer"
+          href="https://github.com/GiulianaBCastillo"
+        >
+          <FontAwesomeIcon icon={faGithub} color="#4d4d4e" />
+        </a>
+      </li>
     </ul>
   </div>
 )
