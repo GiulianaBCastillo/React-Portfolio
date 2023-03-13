@@ -7,6 +7,7 @@ import {
   faHome,
   faUser,
   faEnvelope,
+  faLinkedin
   faSuitcase,
   faBars,
   faClose,
