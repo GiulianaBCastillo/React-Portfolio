@@ -7,6 +7,31 @@ import Logo from './Logo'
 import './index.scss'
 
 const Home = () => {
+  const [letterClass, setLetterClass] = useState('text-animate')
+  const nameArray = ['G', 'i', 'u', 'l', 'i', 'a', 'n', 'a']
+  const jobArray = [
+    'w',
+    'e',
+    'b',
+    ' ',
+    'd',
+    'e',
+    'v',
+    'e',
+    'l',
+    'o',
+    'p',
+    'e',
+    'r',
+    '.',
+  ]
+
+  useEffect(() => {
+    return setTimeout(() => {
+      setLetterClass('text-animate-hover')
+    }, 4000)
+  }, [])
+
   return (
     <div className="container home-page">
       <div className="text-zone">
